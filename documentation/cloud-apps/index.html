@@ -1,0 +1,135 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <!-- Use title if it's in the page YAML frontmatter -->
+    <title>Spiceworks Developers - Cloud App Overview</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="/images/favicon.gif" rel="icon" type="image/gif" />
+
+    <link href="/stylesheets/application.css" rel="stylesheet" type="text/css" />
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-314222-31', 'spiceworks.com');
+  ga('send', 'pageview');
+</script>
+
+  </head>
+
+  <body data-page-name="documentation_cloud-apps_index" class="documentation documentation_cloud-apps documentation_cloud-apps_index">
+
+    <header class="site-navigation sui-opt-in">
+  <nav class="global-nav " data-navbar="global">
+    <div class="nav-fluid-container">
+      <a class="global-nav_brand" href="/">Home</a>
+      <img src="//static.spiceworks.com/assets/masthead/print_logo.png" class="global-nav_print-logo">
+    </div>
+  </nav>
+  <nav class="domestic-nav" data-sticky="true" data-navbar="domestic">
+    <div class="nav-fluid-container">
+      <a class="domestic-nav_brand" href="/"><div class="swoosh-logo"></div><span class="domestic-nav_title">Developers</span></a>
+      <ul class="domestic-menus">
+        <li class=" domestic-menus_entry"><a active="false" href="/how-it-works/faq.html">How It Works</a></li>
+        <li class=" domestic-menus_entry"><a active="false" href="/documentation">Documentation</a></li>
+        <li class=" domestic-menus_entry"><a active="false" href="/downloads">Downloads</a></li>
+        <li class=" domestic-menus_entry"><a active="false" href="/support">Support</a></li>
+      </ul>
+    </div>
+  </nav>
+</header>
+
+
+    <div class="content-wrapper">
+        <div class="sui-fluid-container with-sidebar with-breadcrumbs">
+    <ul class="breadcrumbs">
+      <li>
+        <a href="/documentation/">Documentation</a>
+      </li>
+      <li>
+        <a href="/documentation/cloud-apps/">Build Cloud Apps</a>
+      </li>
+      <li>
+        Cloud App Overview
+      </li>
+    </ul>
+
+    <div class='aside-wrapper'><aside><nav class='sidebar'><h4>Build Cloud Apps</h4><ul classs='nav' role='tablist'><li class='active'><a href="/documentation/cloud-apps/">Cloud App Overview</a><nav class='submenu'><ul class='nav'><li class=''><a href="#what-is-a-cloud-app">What is a Cloud App?</a></li><li class=''><a href="#app-cards">App Cards</a></li><li class=''><a href="#full-page-cards">Full Page Cards</a></li><li class=''><a href="#next-steps">Next Steps</a></li></ul></nav></li><li class=''><a href="/documentation/cloud-apps/getting-started.html">Getting Started</a><nav class='submenu'><ul class='nav'><li class=''><a href="#installing-spiceworks">Installing Spiceworks</a></li><li class=''><a href="#adding-content">Adding Content</a></li><li class=''><a href="#what-s-happening">What's Happening?</a></li><li class=''><a href="#using-javascript">Using Javascript</a></li></ul></nav></li><li class=''><a href="/documentation/cloud-apps/api-basics.html">API Basics</a><nav class='submenu'><ul class='nav'><li class=''><a href="#creating-a-card">Creating a Card</a></li><li class=''><a href="#card-lifecycle">Card Lifecycle</a></li><li class=''><a href="#card-services">Card Services</a></li><li class=''><a href="#requests">Requests</a></li><li class=''><a href="#events">Events</a></li><li class=''><a href="#error-handling">Error Handling</a></li></ul></nav></li><hr /><li class=''><a href="/documentation/cloud-apps/examples/index.html">Examples</a></li><li class=''><a href="/documentation/cloud-apps/reference/environment.html">API Reference</a><nav class='submenu'><ul class='nav'><li class=''><a href="/documentation/cloud-apps/reference/environment.html">Environment</a></li><li class=''><a href="/documentation/cloud-apps/reference/helpdesk.html">Help Desk</a></li><li class=''><a href="/documentation/cloud-apps/reference/inventory.html">Inventory</a></li><li class=''><a href="/documentation/cloud-apps/reference/people.html">People</a></li><li class=''><a href="/documentation/cloud-apps/reference/reporting.html">Reporting</a></li></ul></nav></li></ul></nav></aside></div>
+
+    <main class="with-left-sidebar">
+      <section class="documentation-hero-header">
+        <img alt="Spiceworks Swoosh" src="/images/spiceworks-o.png" />
+        <h1>Build Cloud Apps</h1>
+        <hr class="divider-shadow">
+      </section>
+      <section class="doc-content">
+        <h1 id="what-is-a-cloud-app?">What is a Cloud App?</h1>
+
+<p>Cloud Apps allow you to get your application in front of IT pros right from within Spiceworks.  Building a Cloud App lets your content appear inside of Spiceworks applications and it gives you the ability to integrate your app with the core Spiceworks experience through the <a href="https://github.com/spiceworks/spiceworks-js-sdk/blob/master/docs/CanvasAppApis.md">Cloud App APIs</a>.  </p>
+
+<p>Cloud Apps are built on top of web technologies, so it&#39;s easy to get started or to integrate your existing web application.</p>
+
+<h1 id="app-cards">App Cards</h1>
+
+<p>Apps are made up of a collection of web pages that we refer to as <strong>Cards</strong>.  A card is a blank canvas that appears in a specific location inside of Spiceworks where your app can display content.  Cards will always have their own full page linked to in the primary navigation, but you can also have them displayed within each ticket or device view.</p>
+
+<p>You populate a card by providing a URL that contains HTML, JavaScript and CSS.  When your card is loaded inside of Spiceworks, we load the URL within an <code>iframe</code> on that page.  All cards have access to the <a href="https://github.com/spiceworks/spiceworks-js-sdk/blob/master/docs/CanvasAppApis.md">Cloud App APIs</a>, which provide a secure way for your web app to communicate with Spiceworks from inside of the <code>iframe</code>.</p>
+
+<h2 id="full-page-cards">Full Page Cards</h2>
+
+<p>One important example of a Cloud App card, is the <strong>Full Page Card</strong>.  A Full Page Card renders your application inside of its own page within Spiceworks.</p>
+
+<p>All Cloud Apps must have a Full Page Card.  This is the card that will be rendered when your App is launched from other locations inside of Spiceworks.</p>
+
+<p>By default, the Full Page Card frame is full-width (ranging from 710-935px) and the full browser height.</p>
+
+<h1 id="next-steps">Next Steps</h1>
+
+<ul>
+<li>Visit the <a href="https://github.com/spiceworks/spiceworks-js-sdk/blob/master/docs/GettingStarted.md">Getting Started</a> page for a step-by-step guide to building a Spiceworks Cloud App.</li>
+<li>Dive into the <a href="https://github.com/spiceworks/spiceworks-js-sdk/blob/master/docs/CanvasAppApis.md">Cloud App API</a> basics</li>
+</ul>
+
+      </section>
+    </main>
+  </div>
+
+    </div>
+
+    <footer>
+  <div class="sui-fluid-container">
+    <a href="http://spiceworks.com" class="spiceworks-brand">
+      <img alt="Spiceworks Logo" src="/images/spiceworks_reversed.png" />
+    </a>
+    <div class="mid-section">
+      <div class="copy-wrapper">
+        <p>An IT application, community, and marketplace all rolled into one. Spiceworks is the network more than 6 million IT professionals use to connect with one another and over 3,000 technology brands.</p>
+        <p><a href="http://spiceworks.com">Learn More <span class="arrows">»</span></a></p>
+      </div>
+      <div class="button-wrapper">
+        <a href="/support" class="btn btn-orange is-outlined">Contact Us</a>
+      </div>
+    </div>
+    <div class="bottom-section">
+      <span class="copyright">© Copyright 2006-14 Spiceworks, Inc.</span>
+      <ul class="footer-links">
+        <li><a href="//www.spiceworks.com/about">About</a></li>
+        <li><a href="//www.spiceworks.com/app">App</a></li>
+        <li><a href="//www.spiceworks.com/downloads">Downloads</a></li>
+        <li><a href="//community.spiceworks.com">Community</a></li>
+        <li><a href="//www.spiceworks.com/marketing">Advertising</a></li>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+
+    <script src="/javascripts/application.js" type="text/javascript"></script>
+  </body>
+</html>
