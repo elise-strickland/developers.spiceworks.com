@@ -462,7 +462,7 @@ body.narrow .sui-fluid-container {
 
 /* line 362, /usr/local/var/rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sui-2.4.0/app/assets/stylesheets/sui-core.scss */
 .shadow-line {
-  background: url("/images/misc/shadow_line.png") no-repeat center center;
+  background: url("../images/misc/shadow_line.png") no-repeat center center;
   margin-top: 5px; }
 
 /* line 366, /usr/local/var/rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sui-2.4.0/app/assets/stylesheets/sui-core.scss */
@@ -1572,7 +1572,7 @@ i[class^="icon-"] {
   width: 14px;
   height: 14px;
   vertical-align: text-top;
-  background-image: url("/images/sprites/icon_14px_sprites.png");
+  background-image: url("../images/sprites/icon_14px_sprites.png");
   background-position: 0px 0px;
   background-repeat: no-repeat; }
 
@@ -1580,7 +1580,7 @@ i[class^="icon-"] {
 i.icon-24 {
   width: 24px;
   height: 24px;
-  background-image: url("/images/sprites/icon_24px_sprites.png"); }
+  background-image: url("../images/sprites/icon_24px_sprites.png"); }
 
 /* line 1079, /usr/local/var/rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sui-2.4.0/app/assets/stylesheets/sui-core.scss */
 .sui-bttn i[class^="icon-"] {
@@ -4185,7 +4185,7 @@ button.sui-bttn::-moz-focus-inner, input[type="submit"].sui-bttn::-moz-focus-inn
 .sui-opt-in .section-navbar .bottom-shadow {
   height: 23px;
   /* border-top: 1px solid $sectionNavBorder; */
-  background: url("/images/misc/section-nav-shadow.png") no-repeat center center; }
+  background: url("../images/misc/section-nav-shadow.png") no-repeat center center; }
 
 /* line 3200, /usr/local/var/rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sui-2.4.0/app/assets/stylesheets/sui-core.scss */
 .sui-opt-in .section-navbar .nav > li > .sui-dropdown {
@@ -4338,7 +4338,7 @@ button.sui-bttn::-moz-focus-inner, input[type="submit"].sui-bttn::-moz-focus-inn
 /* line 3313, /usr/local/var/rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sui-2.4.0/app/assets/stylesheets/sui-core.scss */
 .nav-tabs {
   border-bottom: 1px solid #ddd;
-  background: url("/images/misc/tab-shadow.png") repeat-x bottom; }
+  background: url("../images/misc/tab-shadow.png") repeat-x bottom; }
 
 /* line 3317, /usr/local/var/rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sui-2.4.0/app/assets/stylesheets/sui-core.scss */
 .sui-opt-in .nav-tabs {
@@ -4691,7 +4691,7 @@ button.sui-bttn::-moz-focus-inner, input[type="submit"].sui-bttn::-moz-focus-inn
 .swoosh-logo {
   height: 21px;
   width: 18px;
-  background-image: url("/images/masthead/orange-swoosh.png");
+  background-image: url("../images/masthead/orange-swoosh.png");
   background-size: cover; }
 
 /* line 3602, /usr/local/var/rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sui-2.4.0/app/assets/stylesheets/sui-core.scss */
@@ -4767,7 +4767,7 @@ body.narrow .nav-fluid-container {
 /* line 3651, /usr/local/var/rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sui-2.4.0/app/assets/stylesheets/sui-core.scss */
 .global-nav_brand {
   float: left;
-  background-image: url("/images/masthead/masthead_logo_small2.png");
+  background-image: url("../images/masthead/masthead_logo_small2.png");
   background-repeat: no-repeat;
   background-position: 0 50%;
   background-size: 158px 14px;
@@ -5149,7 +5149,7 @@ body.narrow .nav-fluid-container {
   display: inline-block;
   width: 16px;
   height: 16px;
-  background-image: url("/images/masthead/global_navbar_icons.png");
+  background-image: url("../images/masthead/global_navbar_icons.png");
   background-repeat: no-repeat; }
 
 /* line 3931, /usr/local/var/rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sui-2.4.0/app/assets/stylesheets/sui-core.scss */
@@ -5212,7 +5212,7 @@ body.narrow .nav-fluid-container {
   border-radius: 3px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
   background-repeat: no-repeat;
-  background-image: url("/images/masthead/app-icons-sm.png"); }
+  background-image: url("../images/masthead/app-icons-sm.png"); }
 
 /* line 3975, /usr/local/var/rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sui-2.4.0/app/assets/stylesheets/sui-core.scss */
 .platform-app-icon.start-icon {
@@ -5247,16 +5247,16 @@ body.narrow .nav-fluid-container {
   /* line 3992, /usr/local/var/rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sui-2.4.0/app/assets/stylesheets/sui-core.scss */
   .global-nav .brand {
     float: left;
-    background-image: url("/images/masthead/masthead_logo.png"); }
+    background-image: url("../images/masthead/masthead_logo.png"); }
 
   /* line 3995, /usr/local/var/rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sui-2.4.0/app/assets/stylesheets/sui-core.scss */
   .navbar-icon {
-    background-image: url("/images/masthead/global_navbar_icons_large.png");
+    background-image: url("../images/masthead/global_navbar_icons_large.png");
     background-size: 96px 48px; }
 
   /* line 3998, /usr/local/var/rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sui-2.4.0/app/assets/stylesheets/sui-core.scss */
   .platform-app-icon {
-    background-image: url("/images/masthead/app-icons.png");
+    background-image: url("../images/masthead/app-icons.png");
     background-size: 96px 96px; } }
 /* line 4002, /usr/local/var/rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sui-2.4.0/app/assets/stylesheets/sui-core.scss */
 .domestic-nav {
@@ -5801,7 +5801,7 @@ html.csstransforms .domestic-nav.affix .domestic-nav_brand, html.csstransforms .
 
 /* line 4419, /usr/local/var/rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sui-2.4.0/app/assets/stylesheets/sui-core.scss */
 .ie8 .domestic-nav .domestic-brand .swoosh-logo {
-  background-image: url("/images/masthead/orange-swoosh-forie.png");
+  background-image: url("../images/masthead/orange-swoosh-forie.png");
   background-size: auto; }
 
 /* line 4423, /usr/local/var/rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sui-2.4.0/app/assets/stylesheets/sui-core.scss */
@@ -5912,7 +5912,7 @@ html.csstransforms .domestic-nav.affix .domestic-nav_brand, html.csstransforms .
 
 /* line 4509, /usr/local/var/rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sui-2.4.0/app/assets/stylesheets/sui-core.scss */
 .sui-opt-in div.auto_complete {
-  background: transparent url("/images/layout/shadowAlpha.png") bottom right;
+  background: transparent url("../images/layout/shadowAlpha.png") bottom right;
   padding: 0 7px 7px 0;
   border: 0;
   position: absolute;
@@ -5956,7 +5956,7 @@ html.csstransforms .domestic-nav.affix .domestic-nav_brand, html.csstransforms .
 
 /* line 4541, /usr/local/var/rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sui-2.4.0/app/assets/stylesheets/sui-core.scss */
 .sui-opt-in #application-search-results, .sui-opt-in #search-loading-message {
-  background: #FFF url("/images/layout/search_background.png") repeat-y left top; }
+  background: #FFF url("../images/layout/search_background.png") repeat-y left top; }
 
 /* line 4543, /usr/local/var/rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sui-2.4.0/app/assets/stylesheets/sui-core.scss */
 .sui-opt-in #application-search-results li, .sui-opt-in #search-loading-message li {
@@ -5991,7 +5991,7 @@ html.csstransforms .domestic-nav.affix .domestic-nav_brand, html.csstransforms .
 /* line 4565, /usr/local/var/rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sui-2.4.0/app/assets/stylesheets/sui-core.scss */
 .sui-opt-in #application-search-results li.selected, .sui-opt-in #search-loading-message li.selected {
   color: #000;
-  background: #ffb591 url("/images/layout/search_background_selected.png") repeat-y left top; }
+  background: #ffb591 url("../images/layout/search_background_selected.png") repeat-y left top; }
 
 /* line 4568, /usr/local/var/rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sui-2.4.0/app/assets/stylesheets/sui-core.scss */
 .sui-opt-in #application-search-results li.no-results {
@@ -6006,7 +6006,7 @@ html.csstransforms .domestic-nav.affix .domestic-nav_brand, html.csstransforms .
 
 /* line 4575, /usr/local/var/rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sui-2.4.0/app/assets/stylesheets/sui-core.scss */
 .sui-opt-in #application-search-results li.no-results.spicerex {
-  background-image: url("/images/other/spicerexhead-medium.png") !important;
+  background-image: url("../images/other/spicerexhead-medium.png") !important;
   height: 50px;
   background-color: #FFF; }
 
@@ -6020,7 +6020,7 @@ html.csstransforms .domestic-nav.affix .domestic-nav_brand, html.csstransforms .
 
 /* line 4583, /usr/local/var/rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sui-2.4.0/app/assets/stylesheets/sui-core.scss */
 .sui-opt-in #application-search-results li.no-results.pegasus {
-  background-image: url("/images/other/gradient-dark-to-light.gif") !important;
+  background-image: url("../images/other/gradient-dark-to-light.gif") !important;
   height: 120px;
   background-color: #FFF; }
 
@@ -6096,7 +6096,7 @@ html.csstransforms .domestic-nav.affix .domestic-nav_brand, html.csstransforms .
 
 /* line 4634, /usr/local/var/rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sui-2.4.0/app/assets/stylesheets/sui-core.scss */
 .sui-side-navigation ul li a.sui-sidenav-item.active {
-  background: #EBF2F8 url("/images/misc/nav_divot.png") right center no-repeat;
+  background: #EBF2F8 url("../images/misc/nav_divot.png") right center no-repeat;
   font-weight: bold;
   color: #333333; }
 
@@ -6104,11 +6104,11 @@ html.csstransforms .domestic-nav.affix .domestic-nav_brand, html.csstransforms .
 .sui-side-navigation ul li a.sui-sidenav-item.active:hover {
   border-right: 0;
   color: #333333;
-  background: #EBF2F8 url("/images/misc/nav_divot.png") right center no-repeat; }
+  background: #EBF2F8 url("../images/misc/nav_divot.png") right center no-repeat; }
 
 /* line 4643, /usr/local/var/rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sui-2.4.0/app/assets/stylesheets/sui-core.scss */
 .sui-side-navigation.right-shadowed {
-  background: transparent url("/images/misc/bg_local_nav.png") right center repeat-y;
+  background: transparent url("../images/misc/bg_local_nav.png") right center repeat-y;
   width: 180px; }
 
 /* line 4647, /usr/local/var/rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sui-2.4.0/app/assets/stylesheets/sui-core.scss */
@@ -6122,7 +6122,7 @@ a.sui-sidenav-item, .sui-sidenav-item {
 
 /* line 4655, /usr/local/var/rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sui-2.4.0/app/assets/stylesheets/sui-core.scss */
 a.sui-sidenav-item.active, .sui-sidenav-item.active {
-  background: #EBF2F8 url("/images/misc/nav_divot.png") right center no-repeat;
+  background: #EBF2F8 url("../images/misc/nav_divot.png") right center no-repeat;
   font-weight: bold;
   color: #333333; }
 
@@ -6380,7 +6380,7 @@ a.sui-sidenav-item:hover, .sui-sidenav-item:hover {
   width: 100%;
   height: 40px;
   margin-bottom: 10px;
-  background: url("/images/icons/indicators/sheet-loading-circle.gif") center no-repeat; }
+  background: url("../images/icons/indicators/sheet-loading-circle.gif") center no-repeat; }
 
 /* line 4837, /usr/local/var/rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sui-2.4.0/app/assets/stylesheets/sui-core.scss */
 .modal.ui-draggable {
@@ -7350,7 +7350,7 @@ a.sui-sidenav-item:hover, .sui-sidenav-item:hover {
 
 /* line 5790, /usr/local/var/rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sui-2.4.0/app/assets/stylesheets/sui-core.scss */
 .progress.active .bar {
-  background: transparent url("/images/misc/progress_background.gif") repeat-x; }
+  background: transparent url("../images/misc/progress_background.gif") repeat-x; }
 
 /* line 5793, /usr/local/var/rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/sui-2.4.0/app/assets/stylesheets/sui-core.scss */
 .progress[data-size=small] {
@@ -7743,7 +7743,7 @@ a.list-group-item-danger.active, a.list-group-item-danger.active:hover, a.list-g
 .loadmask-msg .loadmask-img {
   height: 32px;
   width: 32px;
-  background-image: url("/images/misc/spinner.gif");
+  background-image: url("../images/misc/spinner.gif");
   background-repeat: no-repeat;
   background-position: center center;
   cursor: wait; }
@@ -7850,7 +7850,7 @@ a.list-group-item-danger.active, a.list-group-item-danger.active:hover, a.list-g
   font-size: 1px;
   text-decoration: none;
   border: 0;
-  background-image: url("/images/sprites/icon_14px_sprites.png");
+  background-image: url("../images/sprites/icon_14px_sprites.png");
   background-repeat: no-repeat;
   background-position: 0 -24px;
   cursor: pointer;
@@ -7898,7 +7898,7 @@ a.list-group-item-danger.active, a.list-group-item-danger.active:hover, a.list-g
   margin-top: 4px;
   margin-left: 1px;
   line-height: 18px;
-  background-image: url("/images/sprites/icon_14px_sprites.png");
+  background-image: url("../images/sprites/icon_14px_sprites.png");
   background-repeat: no-repeat;
   background-position: -144px 0; }
 
@@ -8279,7 +8279,7 @@ a.list-group-item-danger.active, a.list-group-item-danger.active:hover, a.list-g
   top: 1px;
   font-size: 1px;
   outline: none;
-  background-image: url("/images/sprites/icon_14px_sprites.png");
+  background-image: url("../images/sprites/icon_14px_sprites.png");
   background-repeat: no-repeat;
   background-position: 0 -24px; }
 
@@ -8659,7 +8659,7 @@ img.sui-image-gallery_image {
   top: 0;
   left: 0;
   cursor: pointer;
-  background-image: url("/images/misc/arrow-left.png");
+  background-image: url("../images/misc/arrow-left.png");
   background-repeat: no-repeat;
   background-position: left center; }
 
@@ -8668,7 +8668,7 @@ img.sui-image-gallery_image {
   top: 0;
   right: 0;
   cursor: pointer;
-  background-image: url("/images/misc/arrow-right.png");
+  background-image: url("../images/misc/arrow-right.png");
   background-repeat: no-repeat;
   background-position: right center; }
 
@@ -16609,7 +16609,7 @@ ul, ol {
   margin-left: -30px;
   margin-right: -30px;
   padding-bottom: 20px;
-  background-image: url("/images/hr-shadow.png");
+  background-image: url("../images/hr-shadow.png");
   background-repeat: no-repeat;
   background-position: center;
   border-bottom: 0; }
@@ -16704,7 +16704,7 @@ aside > nav.sidebar {
       display: block;
       width: 14px;
       height: 14px;
-      background-image: url("/images/icons/list.png");
+      background-image: url("../images/icons/list.png");
       background-size: 14px 14px;
       float: left;
       position: relative;
@@ -16837,7 +16837,7 @@ body.index {
     font-weight: 100; }
   /* line 16, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_launch_page.scss */
   body.index section.hero {
-    background-image: url("/images/home/hero.jpg");
+    background-image: url("../images/home/hero.jpg");
     background-size: cover;
     color: #FFF; }
     /* line 21, /Users/michaelg/src/developers.spiceworks.com/source/stylesheets/_launch_page.scss */
